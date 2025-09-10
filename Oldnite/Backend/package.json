@@ -1,0 +1,28 @@
+{
+  "name": "fortnite-season7-backend",
+  "version": "1.0.0",
+  "description": "Fortnite Season 7.00 Private Server Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0",
+    "moment": "^2.29.4",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "fortnite",
+    "season7",
+    "backend",
+    "private-server"
+  ],
+  "author": "Fortnite Season 7 Backend",
+  "license": "MIT"
+}
